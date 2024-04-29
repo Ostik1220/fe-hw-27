@@ -1,0 +1,25 @@
+.menu{
+    display: flex;
+    background-color: black;
+    width: 200px;
+    height: 220px;
+    align-items: center;
+}
+
+.menu-list{
+    opacity: 0;
+}
+
+.menu-text{
+    color: aqua;
+    font-family: fantasy;
+}
+
+.menu-sections{
+    color: orange;
+    font-family: sans-serif;
+}
+
+.menu-text:hover + .menu-list{
+    opacity: 1;
+}
